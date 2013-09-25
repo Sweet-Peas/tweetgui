@@ -1,0 +1,186 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	height: 98%;
+	font-family: Tahoma;
+	background-image: URL(images/tweet_background.png);
+	background-repeat: no-repeat;
+	background-position: 98% 4%;
+}
+
+img{ border: 0; padding: 0; margin: 0; }
+
+table, td, tr{ border: 0; padding: 0; margin: 0; }
+table { width: 100%; table-layout: fixed; }
+
+#body_container{
+	margin: auto;
+	vertical-align: middle;
+	padding-top: 10px;
+	padding-right: 112px;
+	padding-left: 56px;
+	width: 800px;
+	height: 100%;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+
+#logo_container{
+	text-align: center;
+	width: 100%;
+}
+
+/* ------### MENU ### ------- */
+
+#left_menu{
+	float: left;
+	width: 54px;
+	/* ändra detta senare till 60px */
+	margin-top: 40px;
+
+}
+
+div.menu_item{
+	/* border: 1px solid #99F;
+	border-right: 0; */
+	margin-top: 10px;
+}
+
+/* ------### END MENU ### ------- */
+
+/* ------### CONTENT ### ------- */
+
+#right_content{
+	float: left;
+	width: 700px;
+	padding-left: 30px;
+	padding-top: 10px;
+/* 	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc; */
+}
+
+.overflow_div{
+	overflow: hidden;
+	overflow-y: scroll;
+	white-space: nowrap;
+	height: 200px;
+}
+
+.no_overflow{
+	white-space: nowrap;
+}
+
+.overflow_line1, .overflow_line2{
+	
+}
+
+.overflow_line1{
+	background-color: #B5EDFF;
+}
+
+.overflow_line2{
+	background-color: #FFF;
+}
+
+.wide{
+	width: 320px;
+	overflow: hidden;
+}
+.medium{
+	width: 80px;
+	overflow: hidden;
+}
+.small{
+	width: 40px;
+	overflow: hidden;
+}
+.minataur{
+	width: 25px;
+	overflow: hidden;
+}
+
+.wide, .medium, .small, .mini{
+	overflow: hidden;
+	white-space: nowrap;
+	padding: 1px;
+	padding-left: 5px;
+	font-size: 12pt;
+	height: 10px;
+}
+
+
+/* ------### END CONTENT ### ------- */
+
+#float_clear{
+	clear: both;
+}
+
+/* ------### FORMS ### ------- */
+
+textarea.tweet_box{
+	width: 500px;
+	height: 50px;
+	border: 1px solid #B5EDFF;
+	background: #FFF;
+}
+
+input{
+	border: 1px solid B5EDFF;
+}
+
+
+/* ------### End FORMS ### ------- */
+
+/* ------### TEXT ### ------- */
+
+div.center{
+	text-align: center;
+}
+div.vcenter{
+	vertical-align: middle;
+}
+
+a{
+	font-family: Georgia;
+	text-decoration: none;
+}
+a:link {
+	color:#000;
+}      /* unvisited link */
+a:visited {
+	color:#000;
+}  /* visited link */
+a:hover {
+	color:#000;
+	text-decoration: underline;
+}  /* mouse over link */
+a:active {
+	color:#000;
+}  /* selected link */
+
+.notice {
+	font-style: italic;
+	color: #A6230B;
+	font-size: 10pt;
+}
+
+.table_desc{
+	font-style: italic;
+	color: #AAA;
+	font-size: 10pt;
+}
+h1,h2,h3{
+	font-family: georgia;
+}
+.table_headline{
+	font-weight: bold;
+}
+
+.char_remain{
+	font-size: 30pt;
+	color: #ccc;
+	font-weight: bold;
+	display: block;
+	float: right;
+	
+}

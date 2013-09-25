@@ -1,0 +1,34 @@
+<NotepadPlus>
+    <Project name="Project TweetGUI">
+        <Folder name="images">
+            <Folder name="resource">
+                <File name="images\resource\eyepatch.png" />
+                <File name="images\resource\hashtag.jpg" />
+                <File name="images\resource\hashtag_background.psd" />
+                <File name="images\resource\menu_hashtag.psd" />
+                <File name="images\resource\menu_hashtag_60x60.psd" />
+                <File name="images\resource\menu_hashtag_selected_60x60.psd" />
+                <File name="images\resource\menu_tweet.psd" />
+                <File name="images\resource\menu_tweet_60x60.psd" />
+                <File name="images\resource\menu_tweet_selected_60x60.psd" />
+                <File name="images\resource\tweetgui_logo.psd" />
+                <File name="images\resource\tweet_background.psd" />
+                <File name="images\resource\Twitter.png" />
+            </Folder>
+            <File name="images\hashtag_background.png" />
+            <File name="images\menu_hashtag.png" />
+            <File name="images\menu_hashtag_selected.png" />
+            <File name="images\menu_tweet.png" />
+            <File name="images\menu_tweet_selected.png" />
+            <File name="images\tweetgui_logo.png" />
+            <File name="images\tweet_background.png" />
+        </Folder>
+        <File name="functions.php" />
+        <File name="index.php" />
+        <File name="menu.php" />
+        <File name="style.css" />
+        <File name="workspace.txt" />
+        <File name="hashtag_page.php" />
+        <File name="tweet_page.php" />
+    </Project>
+</NotepadPlus>
